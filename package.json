@@ -20,8 +20,8 @@
     "rollup": "rollup -c",
     "format": "prettier --write ./src/"
   },
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.es.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist/"
