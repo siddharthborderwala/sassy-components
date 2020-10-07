@@ -19,7 +19,8 @@ export const attachProps = (node, newProps, oldProps = {}) => {
             if (name.indexOf('on') === 0 && name[2] === name[2].toUpperCase()) {
                 const eventName = name.substring(2);
                 const eventNameLc = eventName[0].toLowerCase() + eventName.substring(1);
-                if (typeof document !== 'undefined' && !isCoveredByReact(eventNameLc, document)) {
+                if (typeof document !== 'undefined' &&
+                    !isCoveredByReact(eventNameLc, document)) {
                     syncEvent(node, eventNameLc, newProps[name]);
                 }
             }
