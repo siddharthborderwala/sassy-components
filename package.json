@@ -1,7 +1,7 @@
 {
   "name": "sassy-components",
   "sideEffects": "false",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A react ui component library based on shoelace",
   "author": {
     "name": "Siddharth Borderwala",
