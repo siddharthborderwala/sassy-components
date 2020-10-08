@@ -3,7 +3,7 @@
 /* auto-generated react proxies */
 import { createReactComponent } from './react-component-lib';
 
-import type { JSX } from '@shoelace-style/shoelace';
+import { JSX } from '@shoelace-style/shoelace';
 
 export const SlAlert = /*@__PURE__*/ createReactComponent<
   JSX.SlAlert,
