@@ -58,13 +58,10 @@ export const createOverlayComponent = (displayName, controller) => {
                 if (this.overlay) {
                     attachProps(this.overlay, this.props, prevProps);
                 }
-                if (prevProps.isOpen !== this.props.isOpen &&
-                    this.props.isOpen === true) {
+                if (prevProps.isOpen !== this.props.isOpen && this.props.isOpen === true) {
                     this.present(prevProps);
                 }
-                if (this.overlay &&
-                    prevProps.isOpen !== this.props.isOpen &&
-                    this.props.isOpen === false) {
+                if (this.overlay && prevProps.isOpen !== this.props.isOpen && this.props.isOpen === false) {
                     yield this.overlay.dismiss();
                 }
             });

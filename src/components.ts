@@ -3,7 +3,7 @@
 /* auto-generated react proxies */
 import { createReactComponent } from './react-component-lib';
 
-import { JSX } from '@shoelace-style/shoelace';
+import type { JSX } from './shoelace-types';
 
 export const SlAlert = /*@__PURE__*/ createReactComponent<
   JSX.SlAlert,
@@ -73,6 +73,10 @@ export const SlIconButton = /*@__PURE__*/ createReactComponent<
   JSX.SlIconButton,
   HTMLSlIconButtonElement
 >('sl-icon-button');
+export const SlIconLibrary = /*@__PURE__*/ createReactComponent<
+  JSX.SlIconLibrary,
+  HTMLSlIconLibraryElement
+>('sl-icon-library');
 export const SlImageComparer = /*@__PURE__*/ createReactComponent<
   JSX.SlImageComparer,
   HTMLSlImageComparerElement

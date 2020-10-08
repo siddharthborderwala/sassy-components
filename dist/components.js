@@ -19,6 +19,7 @@ export const SlForm = /*@__PURE__*/ createReactComponent('sl-form');
 export const SlFormatBytes = /*@__PURE__*/ createReactComponent('sl-format-bytes');
 export const SlIcon = /*@__PURE__*/ createReactComponent('sl-icon');
 export const SlIconButton = /*@__PURE__*/ createReactComponent('sl-icon-button');
+export const SlIconLibrary = /*@__PURE__*/ createReactComponent('sl-icon-library');
 export const SlImageComparer = /*@__PURE__*/ createReactComponent('sl-image-comparer');
 export const SlInput = /*@__PURE__*/ createReactComponent('sl-input');
 export const SlMenu = /*@__PURE__*/ createReactComponent('sl-menu');
